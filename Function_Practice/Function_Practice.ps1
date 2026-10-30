@@ -10,7 +10,7 @@
         )
 
         process {
-            $path = "C:\Users\steve\OneDrive\Desktop\SoftwareV$Version.txt"
+	    $path = "C:\Users\steve\source\repos\powershell-sandbox\Function_Practice\SoftwareV$Version.txt"
 
             Write-Host "$UserName : Attempting to load file from => $path"
             $fileStuff = Get-ChildItem -Path $path
